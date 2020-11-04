@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.flexContainer{
+    border: 3px solid red;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    
+}
+
+.flexItemBild{
+    border: 3px solid green;
+    padding: 5px;
+    min-height:100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexItemBild img{
+    max-width: 200px;
+    overflow: hidden;
+    display: flex;
+}
+
+.flexItemBild p{
+    position: relative;
+    bottom: 50%;
+    display: block;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    opacity: 0,2;
+    color: chocolate;
+
+}
+
+
